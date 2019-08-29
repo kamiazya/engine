@@ -1,0 +1,8 @@
+{
+  "name": "@kamiazya/engine",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kamiazya/engine.git",
+  "author": "kamiazya <yuki@kamiazya.tech>",
+  "license": "MIT"
+}
