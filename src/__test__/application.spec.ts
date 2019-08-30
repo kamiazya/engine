@@ -1,5 +1,5 @@
 import { Injector, ReflectiveInjector } from 'injection-js';
-import { INITIALIZER, TERMINATER, Application } from '../application';
+import { Application, INITIALIZER, TERMINATER } from '../application';
 
 describe('Application', () => {
   it('Can be instantiated', () => {

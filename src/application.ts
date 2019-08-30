@@ -5,7 +5,6 @@ type LifeCycleFunction = () => Promise<void>;
 export const INITIALIZER = new InjectionToken<LifeCycleFunction>('application.life-cycle.initializer');
 export const TERMINATER = new InjectionToken<LifeCycleFunction>('application.life-cycle.terminater');
 
-
 @Injectable()
 export class Application {
   constructor(private injector: Injector) {}
