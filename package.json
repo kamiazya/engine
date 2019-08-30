@@ -9,16 +9,19 @@
     "build": "tsc -p tsconfig.json",
     "test": "jest"
   },
+  "peerDependencies": {
+    "injection-js": "^2.2.2",
+    "tslib": "^1.9.3"
+  },
+  "dependencies": {
+    "injection-js": "^2.2.2",
+    "tslib": "^1.10.0"
+  },
   "devDependencies": {
     "@types/jest": "^24.0.18",
-    "injection-js": "^2.2.2",
     "jest": "^24.9.0",
     "reflect-metadata": "^0.1.13",
     "ts-jest": "^24.0.2",
     "typescript": "^3.6.2"
-  },
-  "peerDependencies": {
-    "injection-js": "^2.2.2",
-    "tslib": "^1.9.3"
   }
 }
