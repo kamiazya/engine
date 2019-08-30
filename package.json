@@ -1,6 +1,7 @@
 {
   "name": "@kamiazya/engine",
   "version": "0.0.1",
+  "description": "Light wigth application engine by provide DI and LifeCycle.",
   "main": "dist/public_api.js",
   "repository": "https://github.com/kamiazya/engine.git",
   "publishConfig": {
