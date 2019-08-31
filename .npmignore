@@ -1,0 +1,10 @@
+.prettierignore
+.prettierrc.json
+jest.config.js
+polyfill.ts
+tsconfig.json
+tslint.json
+src
+coverage
+.github
+.vscode
