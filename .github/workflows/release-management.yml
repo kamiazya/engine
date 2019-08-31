@@ -5,6 +5,8 @@ on:
     # branches to consider in the event; optional, defaults to all
     branches:
       - master
+    paths:       # Push events containing matching files
+      - package.json
 
 jobs:
   update_draft_release:
