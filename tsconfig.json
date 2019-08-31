@@ -15,12 +15,16 @@
     "emitDecoratorMetadata": true,
     "lib": [
       "es2016"
+    ],
+    "types": [
+      "reflect-metadata"
     ]
   },
   "include": [
     "./src/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.spec.ts"
   ]
 }
