@@ -15,12 +15,6 @@
     "emitDecoratorMetadata": true,
     "lib": [
       "es2016"
-    ],
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    "types": [
-      "reflect-metadata"
     ]
   },
   "include": [

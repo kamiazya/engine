@@ -1,4 +1,5 @@
 import { Provider, Type } from 'injection-js';
+import 'reflect-metadata';
 
 /**
  * Interface defining a Dynamic Module.
