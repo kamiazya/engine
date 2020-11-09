@@ -17,11 +17,11 @@
     "format": "yarn lint --fix"
   },
   "peerDependencies": {
-    "injection-js": "^2.2.2",
+    "injection-js": "^2.4.0",
     "tslib": "^1.9.3"
   },
   "dependencies": {
-    "injection-js": "^2.2.2",
+    "injection-js": "^2.4.0",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
